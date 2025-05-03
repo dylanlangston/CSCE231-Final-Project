@@ -1,7 +1,6 @@
 #ifndef __ADDRESS_MAP_H
 #define __ADDRESS_MAP_H
 
-
 // Sets Memory addresses of IO Devices to variables for ease of use
 #define SRAM_BASE 0x8000000
 #define SRAM_END 0x807FFFF

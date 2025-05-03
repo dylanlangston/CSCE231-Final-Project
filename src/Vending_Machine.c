@@ -320,9 +320,9 @@ alt_u32 Coin_Timeout_Handler(void * context) {
  */
 int HEX3to0_display(int value, unsigned char * table) {
 	int num = value;
-	int digitCount = countDigits(value); //Number of digits in the number to be displayed on the Hex Displays
-	int digitArray[digitCount]; //Array for split digits
-	int digitHexArray[digitCount]; //Array for the HEX representation of digits
+	int digitCount = countDigits(value); // Number of digits in the number to be displayed on the Hex Displays
+	int digitArray[digitCount]; // Array for split digits
+	int digitHexArray[digitCount]; // Array for the HEX representation of digits
 
 	// Setup
 	int intermediateHEX = 0;
@@ -353,7 +353,7 @@ int HEX3to0_display(int value, unsigned char * table) {
 	} else {
 	}
 
-	//Return the value that is to be written to the Hex Displays in order the show the needed number
+	// Return the value that is to be written to the Hex Displays in order the show the needed number
 	return finalNum;
 }
 
