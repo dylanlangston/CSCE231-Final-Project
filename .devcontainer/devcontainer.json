@@ -1,0 +1,22 @@
+{
+	"name": "Nios-2-Vending-Machine",
+	"build": { 
+		"dockerfile": "devcontainer.Dockerfile",
+		"target": "base",
+		"context": ".."
+	},
+	"features": {
+	},
+	"containerUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cmake-tools",
+				"ms-vscode.remote-repositories",
+				"ms-azuretools.vscode-docker"
+			],
+			"settings": {
+			}
+		}
+	}
+}
