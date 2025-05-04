@@ -1,3 +1,7 @@
+<!---
+Still want to get this compiled and a release uploaded but we are currently block due to missing the sopcinfo file for the hardware. Need to investigate the GHRD (https://www.intel.com/content/www/us/en/docs/programmable/683360/18-0/golden-hardware-reference-design.html) which I've found at https://releases.rocketboards.org/2025.03/gsrd/c5_gsrd/cv_soc_devkit_ghrd.zip
+-->
+
 # Nios-2-Vending-Machine
 The final project for CSCE231 as presented by [brodencollins19](https://github.com/brodencollins19) and [dylanlangston](https://github.com/dylanlangston) in December 2016.
 
